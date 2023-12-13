@@ -3,7 +3,7 @@ import { Header, Image } from 'semantic-ui-react'
 
 
 const PurposeImage = () => (
-    <Image src='/assets/logo.png' size='small' style={{marginLeft:'5em'}} centered >
+    <Image src='/assets/logo.png' size='small' style={{marginLeft:'6.75em'}} centered >
     </Image>
   )
   

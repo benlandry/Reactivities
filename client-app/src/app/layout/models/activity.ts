@@ -1,9 +1,8 @@
 export interface Activity {
-    id: string
-    title: string
-    date: string
-    description: string
-    category: string
-    city: string
-    venue: string
+  border: string;
+  color: string;
+  children?: React.ReactNode;
+  height: string;
+  onClick: () => void;
+  width: string;
   }

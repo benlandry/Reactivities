@@ -11,7 +11,7 @@ export default function ActivityDashboard({ activities }: Props) {
     return (
         <Container divided='vertically'>
             <Segment vertical>
-                <ActivityList activities={activities} />
+                <ActivityList activities={[]}/>
             </Segment>
         </Container>
     )

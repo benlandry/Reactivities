@@ -18,7 +18,7 @@ function App() {
   }, [])
 
   return (
-    <Container>
+    <Container fluid>
       <NavBar />
       <Header as='h4'
         color='black'
@@ -32,7 +32,7 @@ function App() {
           color='black'
           content='1 Corinthians 13' textAlign='center' style={{ marginTop: '2em', fontSize: '1.75em' }}
         />
-        <Divider style={{ marginTop: '6em' }} color='black'></Divider>
+        <Divider padded='very' style={{ marginTop: '5em' }} ></Divider>
       </Container>
       <Container color='grey' style={{ marginTop: '1em' }}>
         <ActivityDashboard activities={activities} />
