@@ -30,15 +30,12 @@ function App() {
         <Header
           as='h1'
           color='black'
-          content='1 Corinthians 13' textAlign='center' style={{ marginTop: '2em', fontSize: '1.75em' }}
-        />
+          content='1 Corinthians 13' textAlign='center' style={{ marginTop: '2em', fontSize: '1.75em' }}/>
         <Divider padded='very' style={{ marginTop: '5em' }} ></Divider>
       </Container>
       <Container color='grey' style={{ marginTop: '1em' }}>
         <ActivityDashboard activities={activities} />
-
       </Container>
-
     </Container>
   )
 }
