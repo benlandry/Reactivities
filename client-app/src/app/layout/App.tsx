@@ -24,9 +24,9 @@ function App() {
         color='black'
         textAlign='center'
         content='ATTM Foundation'
-        style={{ marginTop: '1.75em', fontSize: '4em'}} />
+        style={{ marginTop: '1.75em', fontSize: '4em' }} />
       <Logo />
-      <Container>
+      <Container fluid>
         <Header
           as='h1'
           color='black'
@@ -36,7 +36,9 @@ function App() {
       </Container>
       <Container color='grey' style={{ marginTop: '1em' }}>
         <ActivityDashboard activities={activities} />
+
       </Container>
+
     </Container>
   )
 }

@@ -9,7 +9,7 @@ interface Props {
 
 export default function ActivityDashboard({ activities }: Props) {
     return (
-        <Container divided='vertically'>
+        <Container fluid divided='vertically'>
             <Segment vertical>
                 <ActivityList activities={[]}/>
             </Segment>
