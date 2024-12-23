@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom';
-import App from './App.tsx'
 import 'semantic-ui-css/semantic.min.css'
-import './index.css'
+import './app/layout/styles.css'
+import App from './app/layout/App';
 
 
 ReactDOM.render(
